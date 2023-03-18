@@ -1,6 +1,9 @@
 import './App.css';
 import {BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { Navbar } from './components/navbar';
+import { Shop } from './pages/shop/shop';
+import { Cart } from './pages/cart/cart';
+
 
 function App() {
   return (
@@ -9,8 +12,8 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path ="/" />   {/* ruta za shop */}
-          <Route path="/cart" /> {/* ruta za korpu */}
+          <Route path ="/" element= {<Shop />} />   {/* ruta za shop */}
+          <Route path="/cart" element = {<Cart />} /> {/* ruta za korpu */}
 
         </Routes>
       </Router>

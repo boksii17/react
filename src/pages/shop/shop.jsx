@@ -6,7 +6,7 @@ import "../../css/shop.css";
 export const Shop = () => {
   return (
     <div className='shop'>
-        <div className='shoptitle'>
+        <div className='shopTitle'>
             <h1>Tech Shop</h1>
         </div>
         <div className='products'>
@@ -15,5 +15,5 @@ export const Shop = () => {
         </div>
 
     </div>
-  )
-}
+  );
+};

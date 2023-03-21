@@ -3,9 +3,11 @@ import "../../css/about.css";
 
 export const About = () => {
     return (
+    <div className="background-image">
       <div className='about'>
               <h2>About Us</h2>
-              <p>
+
+              <p className="text">
               Welcome to our tech company, where we specialize in providing
               the latest and greatest gadgets and electronics to our customers.
              We are dedicated to delivering high-quality products that meet the
@@ -30,6 +32,7 @@ export const About = () => {
                 your next favorite device!
              </p>
           </div>
+      </div>
     );
   };
   

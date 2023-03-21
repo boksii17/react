@@ -9,4 +9,18 @@
   max-width: 800px;
   padding: 0 20px;
   margin: auto;
+  
+}
+
+.background-image {
+  background-image: url('../pictures/aboutpozadina.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh; /* minimalna visina stranice */
+  opacity: 0.8;
+}
+
+.text {
+  color: black;
+
 }

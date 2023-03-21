@@ -5,6 +5,7 @@ import { Shop } from './pages/shop/shop';
 import { Cart } from './pages/cart/cart';
 import { ShopContextProvider } from './context/shop-context';
 import { About } from './pages/about/about';
+import { Footer } from './components/footer';
 
 
 function App() {
@@ -18,8 +19,10 @@ function App() {
             <Route path="/cart" element = {<Cart />} /> 
             <Route path ="about" element= {<About />} /> 
          </Routes>
+          <Footer> Footer </Footer>
         </Router>
-      </ShopContextProvider>
+        </ShopContextProvider>
+     
     </div>
     
   );

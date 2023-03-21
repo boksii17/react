@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React  from 'react'
 import { Link } from 'react-router-dom';
 import { ShoppingCart } from 'phosphor-react';
 import "../css/navbar.css"
@@ -8,7 +8,7 @@ import logo from "../pictures/logo.png";
 export const Navbar = () => {
   return (
     <div className="navbar"> 
-    <img src={logo} alt="Tech Shop" style={{width: '20%', height: 150}} />
+    <img src={logo} alt="Tech Shop" style={{width: '15%', height: 120}} />
         <div className="links">
             <Link to = "about">About Us</Link>
             <Link to = "/">Shop</Link>

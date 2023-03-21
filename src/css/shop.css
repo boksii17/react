@@ -1,7 +1,9 @@
 .shopTitle {
-    margin-top: 100px;
-    text-align: center;
-    font-size: 40px;
+    margin-top: 50px;
+    text-align: left;
+    font-size: 20px;
+    color: rgb(217, 54, 78);
+    
   }
   .products {
     width: 100%;
@@ -15,7 +17,7 @@
     border-radius: 15px;
     width: 150px;
     height: 400px;
-    margin: 30px;
+    margin: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,7 +25,8 @@
   }
   
   .product img {
-    width: 200px;
+    max-width: 100%;
+    height: auto;
   }
   
   .product .description {
@@ -47,7 +50,7 @@
   }
   
   .addToCartBttn:hover {
-    background-color: rgb(19, 19, 19);
+    background-color: rgb(85, 163, 194);
     color: white;
     cursor: pointer;
   }

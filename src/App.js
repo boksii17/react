@@ -4,7 +4,7 @@ import { Navbar } from './components/navbar';
 import { Shop } from './pages/shop/shop';
 import { Cart } from './pages/cart/cart';
 import { ShopContextProvider } from './context/shop-context';
-
+import { About } from './pages/about/about';
 
 
 function App() {
@@ -16,6 +16,7 @@ function App() {
           <Routes>
             <Route path ="/" element= {<Shop />} /> 
             <Route path="/cart" element = {<Cart />} /> 
+            <Route path ="about" element= {<About />} /> 
          </Routes>
         </Router>
       </ShopContextProvider>

@@ -1,0 +1,12 @@
+.about {
+  line-height: 2;
+  text-align: justify;
+  hyphens: auto;
+  font-size: 18px; 
+  font-family: 'Comic Sans MS', cursive; 
+  font-weight: bold; 
+  text-transform: uppercase; 
+  max-width: 800px;
+  padding: 0 20px;
+  margin: auto;
+}

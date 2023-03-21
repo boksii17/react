@@ -5,7 +5,9 @@ import "../../css/shop.css";
 
 export const Shop = () => {
   return (
-    <div className='shop'>
+    
+      <div className='shop'>
+        <div className="background-image">
         <div className='shopTitle'>
             <h1>Tech Shop</h1>
         </div>
@@ -13,7 +15,7 @@ export const Shop = () => {
             {PRODUCTS.map((product) => (<Product data={product} /> ))}
 
         </div>
-
-    </div>
+      </div>
+      </div>
   );
 };

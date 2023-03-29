@@ -51,31 +51,31 @@ export const PRODUCTS = [
    {
       id: 7, 
       productName: "IPhone 12pro",
-      price: 700.0,
+      price: 860.0,
       productImage: product7,
      },
      {
       id: 8, 
       productName: "ASUS laptop",
-      price: 700.0,
+      price: 1350.0,
       productImage: product8,
      },
      {
       id: 9, 
       productName: "Iphone 13",
-      price: 700.0,
+      price: 900.0,
       productImage: product9,
      },
      {
       id: 10, 
       productName: "Samsung Galaxy 23",
-      price: 700.0,
+      price: 850.0,
       productImage: product10,
      },
      {
       id: 11, 
       productName: "Canon EOS",
-      price: 700.0,
+      price: 1500.0,
       productImage: product11,
      },
 

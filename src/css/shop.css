@@ -1,17 +1,28 @@
+.shop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
 .shopTitle {
     margin-top: 50px;
-    text-align: left;
+    text-align: ceneter;
     font-size: 20px;
     color: rgb(0, 0, 0);
+    margin-bottom: 20px;
     
   }
   .products {
     width: 100%;
     height: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    /* grid-template-columns: 1fr 1fr 1fr; */
     place-items: center;
     color: black;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
   }
   
   .product {
@@ -25,13 +36,6 @@
     align-items: center;
   }
   
-  .background-image {
-    background-image: url('../pictures/shoppozadina.jpg');
-    background-size: cover;
-    background-position: center;
-    min-height: 100vh; /* minimalna visina stranice */
-    
-  }
 
 
 
@@ -39,8 +43,8 @@
     width: 200px;
     height: 200px;
     object-fit: cover; 
-    border: 6px solid rgb(89, 60, 69);
-  border-radius: 30px; /* opcionalno, dodaje zaobljeni rub */
+    border: 3px solid rgb(192, 47, 93);
+    border-radius: 30px; /* opcionalno, dodaje zaobljeni rub */
   }
 
   .product .description {
@@ -69,3 +73,5 @@
     color: white;
     cursor: pointer;
   }
+
+ 

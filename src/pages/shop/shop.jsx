@@ -7,14 +7,12 @@ export const Shop = () => {
   return (
     
       <div className='shop'>
-        <div className="background-image">
+        
         <div className='shopTitle'>
             <h1>Tech Shop</h1>
         </div>
         <div className='products'>
             {PRODUCTS.map((product) => (<Product data={product} /> ))}
-
-        </div>
       </div>
       </div>
   );

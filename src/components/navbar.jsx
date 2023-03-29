@@ -8,7 +8,7 @@ import logo from "../pictures/logo.png";
 export const Navbar = () => {
   return (
     <div className="navbar"> 
-    <img src={logo} alt="Tech Shop" style={{width: '15%', height: 120}} />
+    <img src={logo} alt="Tech Shop" style={{width: '8%', height: 80}} />
         <div className="links">
             <Link to = "about">About Us</Link>
             <Link to = "/">Shop</Link>
